@@ -1,0 +1,1 @@
+# Stitched-Image-Quality-Evaluator
