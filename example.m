@@ -2,7 +2,7 @@
 clear all;
 
 %add pyramid toolbox to path
-addpath('E:\Pavan\pano_test\matlabPyrTools-master');
+addpath('E:\Pavan\pano_test\matlabPyrTools-master');    %Change path to contain Matlab Pyramid Toolbox
 
 patch_size = 100;
 
@@ -25,7 +25,7 @@ stitched_im = imread('images\stitched.jpg');
 % vl_feat can be downloaded from http://www.vlfeat.org/index.html
 
 ip = pwd;
-cd E:\Pavan\pano_test\vlfeat-0.9.19\toolbox;
+cd E:\Pavan\pano_test\vlfeat-0.9.19\toolbox;        %Change path to contain VLFeat
 feval('vl_setup');
 cd(ip);
 addpath('modelspecific');
@@ -50,5 +50,5 @@ feat = (2./(high-low)).*(feat - (high+low)/2);
 
 % add libsvm to path
 % change path for linux and Mac
-addpath('E:\Pavan\pano_test\matlabPyrTools-master\libsvm-3.22\windows');
+addpath('E:\Pavan\pano_test\matlabPyrTools-master\libsvm-3.22\windows');        %Change path to contain libSVM
 quality_score = svmpredict(randi(100),feat,model,'-q')';
