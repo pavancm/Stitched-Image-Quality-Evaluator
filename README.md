@@ -2,7 +2,7 @@
 
 This is the MATLAB implementation of Stiched Image Quality Evaluator (SIQE) presented in the paper:
 
-Madhusudana, P.C. and Soundararajan, R., 2019. Subjective and Objective Quality Assessment of Stitched Images for Virtual Reality. IEEE Transactions on Image Processing, 28(11), pp.5620-5635.
+P. C. Madhusudana and R. Soundararajan, "Subjective and Objective Quality Assessment of Stitched Images for Virtual Reality," IEEE Transactions on Image Processing, vol. 28, no. 11, pp. 5620-5635, Nov 2019
 
 ## Running on MATLAB
 
